@@ -85,26 +85,18 @@ img {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-@media (max-width: 890px) {
-   
-  }
-
-  @media (min-width: 890px) {
-  
-
-}
-
 
 @media screen and (max-width: 600px) {
     .flexbox {
-      flex-direction: column;
+        display: flex;
+        flex-direction: column;
     }
-    
-    .flexbox2{
-      flex: none;
-      width: 100%;
-      margin-right: 0;
+
+    .flexbox2 {
+        flex: none;
+        width: 100%;
+        margin-right: 0;
     }
-  }
+}
   
 
