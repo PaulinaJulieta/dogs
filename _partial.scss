@@ -1,14 +1,9 @@
 /*Variabler*/
-$main-color: rgba(70, 49, 48, 1);
-$text-color: #fff;
+$header-color: #463130; 
+$header-text-color: #fff;
+$overskrifter: #AE9D81;
+$text-color: black;   
 $base-font-size: 18px;
-
-//variabler til responsivitet
-$mobile: 576px;
-$tablet: 890px;
-$desktop: 992px;
-$largeDesktop: 1200px;
-
 
 /*Mixins*/
 @mixin flexbox($columns: 2, $gap: 20px) {
