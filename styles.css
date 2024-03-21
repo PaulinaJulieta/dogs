@@ -55,6 +55,21 @@ h1, h2 {
     line-height: 1.5;
 }
 
+.flexbox{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    justify-content: space-between;
+    gap: 20px;
+    font-size: 18px;
+    margin-bottom: 3em;
+}
+  
+
+.flexbox2 {
+    grid-column: auto;
+}
+
 footer {
     position: fixed;
     bottom: 0;
