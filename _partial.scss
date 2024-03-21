@@ -1,0 +1,20 @@
+/*Variabler*/
+$main-color: rgba(70, 49, 48, 1);
+$text-color: #fff;
+$base-font-size: 18px;
+
+//variabler til responsivitet
+$mobile: 576px;
+$tablet: 890px;
+$desktop: 992px;
+$largeDesktop: 1200px;
+
+
+/*Mixins*/
+@mixin flexbox($columns: 2, $gap: 20px) {
+  display: grid;
+  grid-template-columns: repeat($columns, 1fr);
+  grid-template-rows: 1fr;
+  justify-content: space-between;
+  margin-bottom: 3em;
+}
